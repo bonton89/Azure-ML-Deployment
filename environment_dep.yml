@@ -1,0 +1,12 @@
+name: MyEnvironment
+channels:
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.6.2
+  - pip:
+     - azureml-defaults~=1.37.0
+  - scikit-learn
+  - pandas
+  - joblib
+  
